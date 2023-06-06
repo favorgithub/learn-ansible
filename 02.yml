@@ -8,4 +8,4 @@
 
     - name: Include task list in play
       ansible.builtin.include_tasks:
-        file: universe.yaml
+        file: universe.yml
