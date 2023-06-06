@@ -1,4 +1,5 @@
 - name: Demo on Roles
   hosts: all
+  connection: local
   roles:
     - sample
