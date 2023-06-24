@@ -37,3 +37,11 @@
       enabled: true
 
 
+
+#How to get modules to do the things in Ansible - google key words
+
+#Removing a file in ansible is a challenge so we will  remove the directory and create another directory
+# google remove a directory in ansible
+# download and extract a file
+#copy a file in ansible module
+## start a service ansible module
