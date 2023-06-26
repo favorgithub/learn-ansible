@@ -11,3 +11,7 @@
 
 
 
+
+
+#In shell we are using ${} to delare variable
+#In ansible we use 2 curly braces to declare the variable

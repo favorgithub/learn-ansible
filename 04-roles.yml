@@ -3,3 +3,12 @@
   connection: local
   roles:
     - sample
+
+
+
+
+
+
+
+
+#The role name is sample because the folder name is sample
