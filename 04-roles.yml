@@ -11,4 +11,5 @@
 
 
 
-#The role name is sample because the folder name is sample
+#The role name is sample because the folder name  for the role is sample
+# if we make the connection as local it means it will not require any credentials it will just run on this machine
