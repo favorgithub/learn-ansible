@@ -130,6 +130,7 @@ You can login to the node system and pull the command too using the ansible-pull
 
 ##Syntax and description: 
 #ansible supports the pull command called ansible-pull
-local host is a dns record of the local system
-url of your code - https://github.com/favorgithub/learn-ansible.git
-local host
+Ansible pull command = ansible -pull -i localhost, U https://github.com/favorgithub/roboshop-ansible.git
+URL of the code - hhttps://github.com/favorgithub/roboshop-ansible.git
+local host -  The dns record of the local system
+frontend.yml - The app we want to run
