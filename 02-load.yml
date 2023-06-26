@@ -13,14 +13,15 @@
         file: universe.yml
 
 
-
-
-Here we want to load the universe.yml file to the yml file as an example to test how to include task to ansible
-
-
-
-
-
-
 ##google How to load yaml file ansible
 include_tasks module
+
+Here we want to load the universe.yml file to the yml file as an example to test how to include task to ansible
+## Syntax
+## ansible-playbook -i localhost, 02.yml -e ansible_user=centos  -e  ansible_password=DevOps321
+
+
+
+
+
+
