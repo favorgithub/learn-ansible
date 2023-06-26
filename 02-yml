@@ -1,6 +1,8 @@
 ## Demo on how to load another file
 - name: Demo on Load another file
   hosts: all
+
+
   tasks:
     - name: Print Hello World
       ansible.builtin.debug:
@@ -9,3 +11,16 @@
     - name: Include task list in play
       ansible.builtin.include_tasks:
         file: universe.yml
+
+
+
+
+Here we want to load the universe.yml file to the yml file as an example to test how to include task to ansible
+
+
+
+
+
+
+##google How to load yaml file ansible
+include_tasks module
