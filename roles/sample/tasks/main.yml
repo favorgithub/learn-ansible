@@ -1,3 +1,12 @@
 - name: Print Hello World
   ansible.builtin.debug:
     msg: Hello World from Roles
+
+
+
+
+
+
+
+
+## syntax: ansible-playbook 04-roles.yml
