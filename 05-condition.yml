@@ -5,7 +5,19 @@
     - name: Print Hello Universe
       ansible.builtin.debug:
         msg: Hello Universe
+      when: what == "universe"
+
 
     - name: Print Hello World
       ansible.builtin.debug:
         msg: Hello World
+
+
+
+
+
+
+## When you run both of them you simply give syntax as: ansible-playbook 05-condition.yml
+## But when you want to run only a specific task instead of the 2 of them you give a when condition
+## when is a condition and all about wether a task will run or not to run
+## Conditions can be group also, If you have multiple conditions, you can group them with parentheses:
